@@ -1,0 +1,15 @@
+*{
+    font-family: 'Readex Pro', sans-serif;
+}
+
+body{
+    background-color: black;
+}
+
+img{
+    width: 50%;
+    height: auto;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
