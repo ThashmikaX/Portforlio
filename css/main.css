@@ -12,27 +12,46 @@ a{
 }
 
 body{
-    background: url(../images/liquid-cheese.svg) no-repeat;
+    background: url(../images/background\ blk.jpg) no-repeat;
     background-size: cover;
     padding-bottom: 500px;
 }
 
-nav{
+.mainnav{
     padding: 50px;
+    color: #fff;
 }
 
 nav ul{
     list-style-type: none;
     float: right;
+    align-items: center;
 }
 nav ul li{
     float: left;
 }
 nav ul li a{
-    color: black;
     padding: 0 30px;
 }
 
 #logo{
-    font-size: 2em;
+    font-size: 1.3em;
+}
+
+.container {
+    position: relative;
+    margin: 150px;
+}
+
+.Head{
+    position: relative;
+    max-width: 400px;
+    text-align: left;
+    margin-left: 0px;
+}
+
+.profileimg {
+    position: absolute;
+    margin-left: 800px;
+    margin-top: 0px;
 }
