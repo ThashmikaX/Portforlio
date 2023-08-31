@@ -2,7 +2,7 @@ body, html {
     height: 100%;
     margin: 0;
     color: #fff;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
 
 }
 
@@ -18,7 +18,7 @@ body{
 }
 
 .mainnav{
-    padding: 50px;
+    margin: 50px;
     color: #fff;
 }
 
@@ -41,17 +41,68 @@ nav ul li a{
 .container {
     position: relative;
     margin: 150px;
+    vertical-align: middle;
 }
 
 .Head{
     position: relative;
-    max-width: 400px;
+    width: 70%;
     text-align: left;
     margin-left: 0px;
+    float: left;
+    vertical-align: middle;
 }
 
 .profileimg {
-    position: absolute;
-    margin-left: 800px;
+    position: relative;
+    margin-right: 0px;
     margin-top: 0px;
+    float: right;
+    vertical-align: middle;
+}
+
+.profile {
+    position: relative;
+    margin-top: 0px;
+    width: 250px;
+    height: auto;
+}
+
+.sudesh-thashmika {
+    color: #ffffff;
+    font-size: 80px;
+}
+
+.sudesh-thashmika span {
+    color: #ea00ff;
+}
+
+.also-known {
+    color: #8a8a8a;
+    font-size: 49.44px;
+    margin-top: -60px;
+    font-weight:lighter;
+}
+
+.also-known span {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.description {
+    color: #8a8a8a;
+    font-size: 18.88px;
+    font-weight:lighter;
+}
+
+.bottom-bar {
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    margin: 50px;
+}
+
+.btn {
+    font-style: normal;
+    font-display: swap;
 }
