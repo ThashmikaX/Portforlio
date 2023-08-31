@@ -38,10 +38,29 @@ nav ul li a{
     font-size: 1.3em;
 }
 
-.container {
+
+section {
     position: relative;
-    margin: 150px;
+    height: 100%;
+
+
+    
+}
+.container {
+    position: absolute;
+    margin-left: 150px;
+    margin-right: 150px;
     vertical-align: middle;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    margin: auto;
+
 }
 
 .Head{
@@ -59,12 +78,13 @@ nav ul li a{
     margin-top: 0px;
     float: right;
     vertical-align: middle;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .profile {
     position: relative;
     margin-top: 0px;
-    width: 250px;
+    width: 300px;
     height: auto;
 }
 
@@ -79,7 +99,7 @@ nav ul li a{
 
 .also-known {
     color: #8a8a8a;
-    font-size: 49.44px;
+    font-size: 30.55px;
     margin-top: -60px;
     font-weight:lighter;
 }
@@ -96,7 +116,7 @@ nav ul li a{
 }
 
 .bottom-bar {
-    position: absolute;
+    position: relative;
     left: 0px;
     bottom: 0px;
     margin: 50px;
@@ -105,4 +125,8 @@ nav ul li a{
 .btn {
     font-style: normal;
     font-display: swap;
+}
+
+.btn2 {
+    margin-left: 10px;
 }
