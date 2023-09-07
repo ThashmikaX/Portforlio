@@ -6,33 +6,53 @@ body, html {
 
 }
 
-a{
-    color: #fff;
-    text-decoration: none;
-}
-
 body{
     background: url(../images/background\ blk.jpg) no-repeat;
     background-size: cover;
-    padding-bottom: 500px;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
 }
+
+section div a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+}
+
 
 .mainnav{
-    margin: 50px;
-    color: #fff;
+    height: 12%;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+    padding-right: 8%;
+    bax-sizing: border-box;
 }
 
-nav ul{
-    list-style-type: none;
-    float: right;
-    align-items: center;
+nav{
+    flex: 1;
+    text-align: right;
+    margin-right: 20px;
 }
+
 nav ul li{
-    float: left;
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 60px;
 }
+
 nav ul li a{
-    padding: 0 30px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
 }
+
+nav ul li a:hover{
+    color: #ea00ff;
+    transition: 0.5s;
+}
+
 
 #logo{
     font-size: 1.3em;
@@ -41,25 +61,27 @@ nav ul li a{
 
 section {
     position: relative;
-    height: 100%;
+    width: 100%;
+    height: 100vh;
+
 
 
     
 }
 .container {
-    position: absolute;
+    position: relative;
     margin-left: 150px;
     margin-right: 150px;
-    vertical-align: middle;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
     left: 0px;
     right: 0px;
-    top: 0px;
+    top: -100px;
     bottom: 0px;
     margin: auto;
+    z-index: -1;
 
 }
 
@@ -78,7 +100,7 @@ section {
     margin-top: 0px;
     float: right;
     vertical-align: middle;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .profile {
@@ -116,10 +138,24 @@ section {
 }
 
 .bottom-bar {
-    position: relative;
+    position: absolute;
     left: 0px;
     bottom: 0px;
-    margin: 50px;
+    padding-left: 8%;
+    padding-bottom: 3%;
+
+}
+
+.bottom-bar a {
+    color: #ffffff;
+    font-size: 20px;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.bottom-bar a:hover {
+    color: #ea00ff;
+    transition: 0.5s;
 }
 
 .btn {
