@@ -54,7 +54,7 @@ nav ul li a:hover{
 
 
 .btn {
-    margin: 2px;
+    margin: 5px;
     padding: 5px;
     padding-left: 20px;
     padding-right: 20px;
@@ -63,6 +63,7 @@ nav ul li a:hover{
     background-size: 200% auto;
     color: white;
     border-radius: 50px;
+    font-size: 18px;
    }
   
 .btn:hover {
@@ -85,6 +86,7 @@ section {
     width: 100%;
     height: 100vh;    
 }
+
 .container {
     position: relative;
     display: flex;
@@ -115,6 +117,12 @@ section {
     margin-top: 0px;
     float: right;
     vertical-align: middle;
+    box-shadow: 0px 0px 40px 0px #7303c0;
+    border-radius: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 
 }
 
@@ -123,6 +131,7 @@ section {
     margin-top: 0px;
     width: 300px;
     height: auto;
+    
 }
 
 .sudesh-thashmika {
