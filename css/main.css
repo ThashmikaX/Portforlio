@@ -27,7 +27,7 @@ section div a{
     align-items: center;
     padding-left: 8%;
     padding-right: 8%;
-    bax-sizing: border-box;
+    box-sizing: border-box;
 }
 
 nav{
